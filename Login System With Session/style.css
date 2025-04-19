@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: arial;
+    
+}
+
+
+body{
+    display:grid;
+    flex-direction: column;
+    position:absolute;
+    z-index: -1;
+    height: 100%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: red;
+    background: rgb(0, 2, 18);
+   
+    
+    
+}
+
+h1{
+    margin-bottom: 1rem;
+    color: rgba(48, 97, 270, 0.73);
+}
+
+.text{
+    position: relative;
+    top: 10px;
+    font-weight: 700;
+    color: white;
+    
+}
+
+h3{
+    color:white;
+    background:red;
+}
+
+#btn{
+    width:14rem;
+    height:2.5rem;
+    background:#7040ffb8;
+    color:white;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    border:none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#email, #username, #password{
+    height:1.9rem;
+    width:14rem;
+    padding-left: 0.5rem;
+    border-radius: 7px;
+    border: none;
+}
+
+.link{
+    margin-top: 0.3rem;
+    color: rgba(48, 87, 270, 0.73);
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+
+/* suggestion for sign up or sign in*/
+.suggestion{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius: 10px;
+    background: rgba(0, 104, 199, 0.32);
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+label{
+  height: 0px;
+  text-align: left;
+  width: 14rem;
+}
+
+.fields{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 5.6rem;
+  right: 1px;
+  padding: 0rem 2rem 0rem 2rem;
+  z-index: 3;
+  color: rgba(245, 31, 92, 0.8);
+  font-weight: 555;
+  
+}
+
+
+
+
